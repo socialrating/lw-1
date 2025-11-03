@@ -6,9 +6,11 @@ func main() {
     a := 5
     b := 7
 
-    a = a + b
-    b = a - b
-    a = a - b
+    fmt.Println("До:", a, b)
 
-    fmt.Println(a, b)
+    a = a + b 
+    b = a - b 
+    a = a - b 
+
+    fmt.Println("После:", a, b)
 }
